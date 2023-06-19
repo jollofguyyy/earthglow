@@ -1,0 +1,1884 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    background: rgb(111, 111, 239);
+    justify-content:space-evenly;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    padding:1rem 10%;
+    top: 0;
+    left:0;
+}
+
+.logo{
+    font-weight: 700;
+    position: relative;
+    right:20rem;
+    color: white;
+}
+
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding:0 1rem;
+    font-size: 13px;
+    left:20rem;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color:rgb(190, 181, 181);
+}
+
+.header2{
+    position:fixed;
+    width: 90%;
+    background: whitesmoke;
+    display: flex;
+    right:0;
+    top:3.1rem;
+    justify-content: space-around;
+    align-items: center;
+    padding:1.3rem 1rem;
+    z-index: 100;
+    border-radius: 0px 0px 0px 80px;
+}
+
+.header2 img{
+    position: relative;
+    width:120px;
+    left:20rem;
+}
+
+.header2 a{
+    text-decoration: none;
+    padding:0 1rem;
+    font-size: .9rem;
+    transition: .3s;
+}
+
+.header2 a:hover{
+   color: rgb(111, 111, 239);
+}
+
+.headbut{
+    position: relative;
+    width:11rem;
+    height:3rem;
+    background:  rgb(111, 111, 239);
+    text-align: center;
+    padding-top: .8rem;
+    color:aliceblue;
+    border-radius: 10px 3px 3px 30px;
+    letter-spacing: 1px;
+    display: flex;
+}
+
+.headbut a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.headbut:hover{
+    background:rgb(145, 145, 238) ;
+}
+
+.h1{
+    position: relative;
+    height: 100vh;
+    background: url(/images/impianto-solare-nel-desrto-del-gobi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 h1{
+    position:relative;
+    color:aliceblue;
+    top:23rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about{
+    position:relative;
+    top:10rem;
+    display: flex;
+}
+
+.about img{
+    position: relative;
+    left:5rem;
+    width:550px;
+    border-radius: 10px 60px 10px 60px;
+    height:500px;
+}
+
+.text{
+    position:relative;
+    width:50%;
+    padding-bottom: 30px;
+    line-height: 30px;
+    left:8rem;
+}
+
+.text h1{
+    padding-bottom: 30px;
+    font-size: 2rem;
+    line-height: 30px;
+    
+}
+
+.text h2{
+    position: relative;
+    padding-bottom: 30px;
+    color:rgba(0, 0, 0, 0.814);
+    font-size: 2rem;
+   
+}
+
+.text p{
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.648);
+    font-size: 1.2rem;
+}
+
+.history{
+    position:relative;
+    top:15rem;
+    display: flex;
+}
+
+.history img{
+    position: relative;
+    width:550px;
+    border-radius: 10px 60px 10px 60px;
+    height:500px;
+    left:10rem;
+
+}
+
+#his h1{
+    color:rgb(111, 111, 239);
+}
+
+.values{
+    position: relative;
+    text-align: center;
+    top:25rem;
+}
+
+.valss{
+    display: flex;
+    position:relative;
+   justify-content: space-evenly;
+   line-height: 30px;
+}
+
+.values h1{
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(111, 111, 239) ;
+    padding-bottom: 30px;
+}
+
+.vals{
+    position: relative;
+    width:260px;
+}
+
+.vals span{
+    position:relative;
+    color:rgb(111, 111, 239);
+    font-size: 3rem;
+}
+
+.vals h3{
+padding-bottom: 10px;
+font-size: 1.5rem;
+text-align:center;
+}
+
+.vals p{
+    color: rgba(0, 0, 0, 0.648);
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.commitment{
+    position:relative;
+    top:40rem;
+    left:10rem;
+}
+
+.commitment h1{
+    position:relative;
+    color: rgb(111, 111, 239) ;
+    padding-bottom: 30px;
+    font-size: 2rem;
+}
+
+.commitment h2{
+    position:relative;
+    font-size: 1.6rem;
+    padding-bottom: 30px;
+}
+
+.commitment ul{
+    position: relative;
+    font-size: 1.1rem;
+    color:  rgba(0, 0, 0, 0.648);
+    line-height: 40px;
+    width:500px;
+}
+
+.commitment img{
+    position: relative;
+    width:550px;
+    border-radius: 10px 60px 10px 60px;
+    height:500px;
+    left:40rem;
+    bottom:25rem;
+}
+
+.team{
+    position:relative;
+    top:30rem;
+    text-align: center;
+}
+
+.team h1{
+    color:rgb(111, 111, 239);
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.team img{
+    width:250px;
+    border-radius: 40px 20px 40px 20px;
+}
+
+.team h3{
+position:relative;
+padding-bottom: 5rem;
+background: rgb(111, 111, 239);
+font-size: 2rem;
+color: aliceblue;
+}
+
+.team h5{
+    width:100%;
+    position: relative;
+    top:5rem;
+    font-size: 1.7rem;
+    padding-bottom: 10rem;
+}
+
+.team p{
+    font-size:1.2rem ;
+   color: rgba(0, 0, 0, 0.648);
+}
+
+.person{
+    padding-bottom: 5rem;
+    left:10rem;
+    gap:5rem;
+    position: relative;
+    display: flex;
+}
+.contact{
+    position: relative;
+    top:40rem;
+    background: rgb(145, 145, 238);
+    width: 100%;
+    height:200px;
+    text-align: center;
+}
+
+.contact h1{
+    position:relative;
+    top:5rem;
+    right:20rem;
+    color:white;
+    font-size: 2rem;
+}
+
+.contact button{
+    position:relative;
+    left:40rem;
+    top:2rem;
+    letter-spacing: 1px;
+    width:10rem;
+    height:3rem;
+    background:  rgb(111, 111, 239);
+    text-align: center;
+    padding-top: .4rem;
+    color:aliceblue;
+    border-radius: 10px 3px 3px 30px;
+    border: none;
+    
+}
+
+.footer{
+    position:relative;
+    top:40rem;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    line-height:35px;
+    color:rgb(111, 111, 239);
+}
+
+.footer a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.648);
+}
+
+.footer a:hover{
+    color:black;
+}
+
+.footer ul{
+    list-style: none;
+    padding:2px;
+}
+
+.footer-text{
+    position:relative;
+    top:41rem;
+    left:10rem;
+}
+
+@media (max-width:1400px) {
+       
+    
+    .contact{
+        top:115rem;
+        height:150px;
+    }
+    
+    .header{
+        padding:1 10%;
+    }
+    
+    .logo{
+        position: relative;
+        left:-2rem;
+        font-size: 1rem;
+        width:100%;
+    }
+    
+    .navbar a{
+        padding:0rem;
+        font-size: 13px;
+        width:100%;
+        left:20rem;
+    }
+
+     .navbar{
+        position: relative;
+        display:flex;
+        right:9rem;
+        width:100%;
+    }
+    
+    
+    .header2{
+        top:2.8rem;
+        padding:0;
+        width:100%;
+        border-radius: 0;
+    }
+    
+    .header2 img{
+        width:120px;
+        left:3rem;
+        border-radius: 50%;
+    }
+    
+    .header2 a{
+        text-decoration: none;
+        padding:3;
+        font-size: .7rem;
+        transition: .3s;
+    }
+
+    .navlinks{
+        display:flex;
+        width:100%;
+        right:10rem;
+        position: relative;
+    }
+    
+    
+    .headbut{
+        width:15rem;
+        height:2rem;
+        border-radius: 9px;
+        right: .9rem;
+    }
+    
+    .headbut a{
+        position: relative;
+        text-decoration: none;
+        color:aliceblue;
+        text-align: center;
+        bottom:5px ;
+        width: 100%;
+    }
+    
+    .headbut span{
+        font-size: .9rem;
+        position:relative;
+        right:.7rem;
+        bottom:3px;
+
+    }
+
+
+
+    .h1h1{
+        top:10rem;
+        font-size: 1.4rem;
+    }
+    
+    
+
+    .about{
+        position:relative;
+        top:10rem;
+        display: block;
+        
+    }
+    
+    .about img{
+        position: relative;
+        left:rem;
+        bottom:5rem;
+        width:550px;
+        border-radius: 10px 60px 10px 60px;
+        height:500px;
+    }
+    
+    .text{
+        position:relative;
+        width:700px;
+        left:13rem;
+    }
+    
+    .history{
+        display: block;
+    }
+    
+    .history img{
+        width:500px;
+        border-radius: 10px 60px 10px 60px;
+        height:500px;
+        left:10rem;
+    
+    }
+    
+    .values{
+        position: relative;
+        text-align: center;
+        top:25rem;
+    }
+    
+    .valss{
+        display: flex;
+        position:relative;
+       justify-content: space-evenly;
+       line-height: 30px;
+    }
+    
+    .values h1{
+        position: relative;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(111, 111, 239) ;
+        padding-bottom: 30px;
+    }
+    
+    .vals{
+        position: relative;
+        width:150px;
+    }
+    
+    .vals span{
+        font-size: 2rem;
+    }
+    
+    .vals h3{
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    text-align:center;
+    }
+    
+    .vals p{
+        font-size: 1.1rem;
+    }
+    
+    .commitment{
+        position:relative;
+        top:40rem;
+        left:15rem;
+    }
+    
+    .commitment h1{
+        position:relative;
+        color: rgb(111, 111, 239) ;
+        padding-bottom: 30px;
+        font-size: 2rem;
+    }
+    
+    .commitment h2{
+        font-size: 1.6rem;
+        padding-bottom: 30px;
+    }
+    
+    .commitment ul{
+        width:700px;
+    }
+    
+    .commitment img{
+        width:550px;
+        height:500px;
+        left:0rem;
+        top:5rem;
+    }
+    
+    .team{
+        top:55rem;
+    }
+    
+    .person{
+        left:5rem;
+    }
+    
+    .contact{
+        top:60rem;
+        height:150px;
+    }
+    
+    .contact h1{
+        top:4rem;
+        right:2rem;
+        font-size: 1.3rem;
+    }
+    
+    .contact button{
+     
+        left:0rem;
+        top:4.5rem;
+        width:11rem;
+        height:3rem;
+        border-radius: 9px;
+        
+        
+    }
+    
+    .footer{
+        top:60rem;
+        font-size: 1rem;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.648);
+        font-size: .9rem;
+    }
+    
+    .footer a:hover{
+        color:black;
+    }
+    
+    .footer ul{
+        list-style: none;
+        padding:2px;
+        font-size: .9rem;
+    }
+    
+    .footer-text{
+        font-size: .6rem;
+        top:60rem;
+        left:0rem;
+    }
+}
+
+@media (max-width:1100px) {
+    
+    .header{
+        padding:1 10%;
+    }
+    
+    .logo{
+        position: relative;
+        left:-2rem;
+        font-size: .9rem;
+        width:100%;
+    }
+    
+    .navbar a{
+        padding:0rem;
+        font-size: 13px;
+        left:3rem;
+        width:100%;
+    }
+
+    .navbar{
+        position: relative;
+        display:flex;
+        right:0rem;
+        width:100%;
+    }
+    
+    
+    
+    .header2{
+        top:2.8rem;
+        padding:0;
+        width:100%;
+        border-radius: 0;
+    }
+    
+    .header2 img{
+        width:110px;
+        left:3rem;
+        border-radius: 50%;
+    }
+    
+    .header2 a{
+        text-decoration: none;
+        padding:3;
+        font-size: .7rem;
+        transition: .3s;
+    }
+
+    .navlinks{
+        display:flex;
+        width:100%;
+        right:8rem;
+        position: relative;
+    }
+    
+    
+    .headbut{
+        width:10rem;
+        height:2rem;
+        border-radius: 9px;
+        right: .9rem;
+    }
+    
+    .headbut a{
+        position: relative;
+        text-decoration: none;
+        color:aliceblue;
+        text-align: center;
+        bottom:5px ;
+        width: 100%;
+    }
+    
+    .headbut span{
+        font-size: .9rem;
+        position:relative;
+        right:.7rem;
+        bottom:3px;
+
+    }
+
+
+    .h1h1{
+        top:10rem;
+        font-size: 1.4rem;
+    }
+    
+   
+
+    .about{
+        position:relative;
+        top:10rem;
+        display: block;
+    }
+    
+    .about img{
+        position: relative;
+        left:5rem;
+        bottom:5rem;
+        width:550px;
+        border-radius: 10px 60px 10px 60px;
+        height:500px;
+    }
+    
+    .text{
+        position:relative;
+        width:600px;
+    }
+    
+    .history{
+        display: block;
+    }
+    
+    .history img{
+        width:500px;
+        border-radius: 10px 60px 10px 60px;
+        height:500px;
+        left:10rem;
+    
+    }
+    
+    .values{
+        position: relative;
+        text-align: center;
+        top:25rem;
+    }
+    
+    .valss{
+        display: flex;
+        position:relative;
+       justify-content: space-evenly;
+       line-height: 30px;
+    }
+    
+    .values h1{
+        position: relative;
+        text-align: center;
+        font-size: 2rem;
+        color: rgb(111, 111, 239) ;
+        padding-bottom: 30px;
+    }
+    
+    .vals{
+        position: relative;
+        width:150px;
+    }
+    
+    .vals span{
+        font-size: 2rem;
+    }
+    
+    .vals h3{
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    text-align:center;
+    }
+    
+    .vals p{
+        font-size: 1.1rem;
+    }
+    
+    .commitment{
+        position:relative;
+        top:40rem;
+        left:10rem;
+    }
+    
+    .commitment h1{
+        position:relative;
+        color: rgb(111, 111, 239) ;
+        padding-bottom: 30px;
+        font-size: 2rem;
+    }
+    
+    .commitment h2{
+        position:relative;
+        font-size: 1.6rem;
+        padding-bottom: 30px;
+    }
+    
+    .commitment ul{
+        position: relative;
+        font-size: 1.1rem;
+        color:  rgba(0, 0, 0, 0.648);
+        line-height: 40px;
+        width:600px;
+    }
+    
+    .commitment img{
+        position: relative;
+        width:550px;
+        border-radius: 10px 60px 10px 60px;
+        height:500px;
+        left:0rem;
+        top:5rem;
+    }
+    
+    .team{
+        top:55rem;
+    }
+    
+    .person{
+        left:5rem;
+    }
+    
+    .contact{
+        top:60rem;
+        height:150px;
+    }
+    
+    .contact h1{
+        top:4rem;
+        right:2rem;
+        font-size: 1.3rem;
+    }
+    
+    .contact button{
+     
+        left:0rem;
+        top:4.5rem;
+        width:11rem;
+        height:3rem;
+        border-radius: 9px;
+        
+        
+    }
+    
+    .footer{
+        top:60rem;
+        font-size: 1rem;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.648);
+        font-size: .9rem;
+    }
+    
+    .footer a:hover{
+        color:black;
+    }
+    
+    .footer ul{
+        list-style: none;
+        padding:2px;
+        font-size: .9rem;
+    }
+    
+    .footer-text{
+        font-size: .6rem;
+        top:60rem;
+        left:0rem;
+    }
+}
+
+
+
+
+@media (max-width:800px) {
+    .header{
+        padding:1 10%;
+    }
+    
+    .logo{
+        position: relative;
+        left:-2rem;
+        font-size: .8rem;
+        width:100%;
+    }
+    
+    .navbar a{
+        padding:0rem;
+        font-size: 13px;
+        left:1rem;
+        width:100%;
+    }
+
+    .navbar{
+        display:flex;
+        width:100%;
+    }
+    
+    
+    .header2{
+        top:2.8rem;
+        padding:0;
+        width:100%;
+        border-radius: 0;
+    }
+    
+    .header2 img{
+        width:90px;
+        left:3rem;
+        border-radius: 50%;
+    }
+    
+    .header2 a{
+        text-decoration: none;
+        padding:1;
+        font-size: .7rem;
+        transition: .3s;
+    }
+
+    .navlinks{
+        display:flex;
+        width:100%;
+        right:7rem;
+        position: relative;
+    }
+    
+    
+    .headbut{
+        position: relative;
+        width:10rem;
+        height:1.7rem;
+        color:aliceblue;
+        border-radius: 9px;
+        letter-spacing: 1px;
+        align-items: center;
+        display: flex;
+        right: .9rem;
+
+    }
+    
+    .headbut a{
+        position: relative;
+        text-decoration: none;
+        color:aliceblue;
+        text-align: center;
+        bottom:5px ;
+        width: 100%;
+    }
+    
+    .headbut span{
+        font-size: .5rem;
+        position:relative;
+        right:.7rem;
+        bottom:3px;
+
+    }
+
+    .h1h1{
+        top:10rem;
+        font-size: 1.4rem;
+    }
+    
+    .about{
+        top:10rem;
+        display:block;
+    }
+    
+    .about img{
+        left:10rem;
+        width:400px;
+    }
+    
+    .text{
+        width:500px;
+        left:10rem;
+        top:5rem;
+    }
+    
+    .text h1{
+        padding-bottom: 30px;
+        font-size: 2rem;
+        
+    }
+    
+    
+    .history{
+        top:15rem;
+        display:block;
+    }
+    
+    .history img{
+        height:500px;
+        left:11rem;
+        top:5rem;
+        width:400px;
+    
+    }
+    
+    .values{
+        position: relative;
+        text-align: center;
+        top:25rem;
+    }
+    
+    .valss{
+        display:  block;
+        left:16rem;
+    }
+    
+    
+    
+    .vals p{
+        padding-bottom: 50px;
+    }
+    
+    .commitment{
+        left:7rem;
+    }
+    
+    .commitment h1{
+        position:relative;
+        left:4rem;
+    }
+    
+    .commitment h2{
+       left: 2rem;
+        
+    }
+    
+    .commitment ul{
+        position: relative;
+       left:1rem;
+       width:500px;
+    }
+    
+    .commitment img{
+        width:400px;
+        left:2rem;
+        height:450px;
+        top:5rem;
+    }
+    
+    .team{
+        top:55rem;
+        text-align: center;
+    }
+    
+    
+    .team img{
+        width:250px;
+        border-radius: 40px 20px 40px 20px;
+    }
+    
+    .team h3{
+    position:relative;
+    padding-bottom:0;
+    background: rgb(111, 111, 239);
+    font-size: 2rem;
+    color: aliceblue;
+    }
+    
+    .team h5{
+        padding-bottom: 0;
+    }
+
+    
+    .person{
+        padding-bottom: 10rem;
+        left:0rem;
+        display: block;
+    }
+    
+    .contact{
+        top:60rem;
+        height:150px;
+    }
+    
+    .contact h1{
+        top:4rem;
+        right:2rem;
+        font-size: 1.1rem;
+    }
+    
+    .contact button{
+     
+        left:0rem;
+        top:4.5rem;
+        width:11rem;
+        height:3rem;
+        border-radius: 9px;
+        
+        
+    }
+    
+    .footer{
+        top:60rem;
+        font-size: .8rem;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.648);
+        font-size: .9rem;
+    }
+    
+    .footer a:hover{
+        color:black;
+    }
+    
+    .footer ul{
+        list-style: none;
+        padding:2px;
+        font-size: .9rem;
+    }
+    
+    .footer-text{
+        font-size: .6rem;
+        top:60rem;
+        left:0rem;
+    }
+}
+
+@media (max-width:650px) {
+    .header{
+        padding:1 10%;
+    }
+    
+    .logo{
+        position: relative;
+        left:-2rem;
+        font-size: .8rem;
+        width:100%;
+    }
+    
+    .navbar a{
+        padding:0rem;
+        font-size: 13px;
+        left:3rem;
+        width:100%;
+    }
+
+    .navbar{
+        display:flex;
+        width:100%;
+    }
+    
+    
+    .header2{
+        top:2.8rem;
+        padding:0;
+        width:100%;
+        border-radius: 0;
+    }
+    
+    .header2 img{
+        width:90px;
+        left:3rem;
+        border-radius: 50%;
+    }
+    
+    .header2 a{
+        text-decoration: none;
+        padding:1;
+        font-size: .7rem;
+        transition: .3s;
+    }
+
+    .navlinks{
+        display:flex;
+        width:100%;
+        right:1rem;
+        position: relative;
+    }
+    
+    
+    .headbut{
+        position: relative;
+        width:10rem;
+        height:1.7rem;
+        color:aliceblue;
+        border-radius: 9px;
+        letter-spacing: 1px;
+        align-items: center;
+        display: flex;
+        right: .9rem;
+
+    }
+    
+    .headbut a{
+        position: relative;
+        text-decoration: none;
+        color:aliceblue;
+        text-align: center;
+        bottom:5px ;
+        width: 100%;
+    }
+    
+    .headbut span{
+        font-size: .5rem;
+        position:relative;
+        right:.7rem;
+        bottom:3px;
+
+    }
+
+
+    .h1h1{
+        top:10rem;
+        font-size: 1.2rem;
+    }
+    .about{
+        top:10rem;
+        display:block;
+    }
+    
+    .about img{
+        left:2rem;
+        width:400px;
+    }
+    
+    .text{
+        width:400px;
+        left:3rem;
+        top:5rem;
+    }
+    
+    .text h1{
+        padding-bottom: 30px;
+        font-size: 2rem;
+        
+    }
+    
+    
+    .history{
+        top:15rem;
+        display:block;
+    }
+    
+    .history img{
+        height:500px;
+        left:2rem;
+        top:5rem;
+        width:400px;
+    
+    }
+    
+    .values{
+        position: relative;
+        text-align: center;
+        top:25rem;
+    }
+    
+    .valss{
+        display:  block;
+        left:7rem;
+    }
+    
+    
+    
+    .vals p{
+        padding-bottom: 50px;
+    }
+    
+    .commitment{
+        left:0rem;
+    }
+    
+    .commitment h1{
+        position:relative;
+        left:4rem;
+    }
+    
+    .commitment h2{
+       left: 2rem;
+        
+    }
+    
+    .commitment ul{
+        position: relative;
+       left:1rem;
+       width:460px;
+    }
+    
+    .commitment img{
+        width:400px;
+        left:2rem;
+        top:5rem;
+    }
+    
+    .team{
+        top:55rem;
+        text-align: center;
+    }
+    
+    
+    .team img{
+        width:250px;
+        border-radius: 40px 20px 40px 20px;
+    }
+    
+    .team h3{
+    position:relative;
+    padding-bottom:0;
+    background: rgb(111, 111, 239);
+    font-size: 2rem;
+    color: aliceblue;
+    }
+    
+    .team h5{
+        padding-bottom: 0;
+    }
+
+    
+    .person{
+        padding-bottom: 10rem;
+        left:0rem;
+        display: block;
+    }
+    
+    
+
+    .contact{
+        top:60rem;
+        height:150px;
+    }
+    
+    .contact h1{
+        top:4rem;
+        right:2rem;
+        font-size: 1.2rem;
+    }
+    
+    .contact button{
+     
+        left:0rem;
+        top:4.5rem;
+        width:11rem;
+        height:3rem;
+        border-radius: 9px;
+        
+        
+    }
+    
+    .footer{
+        top:60rem;
+        font-size: .8rem;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.648);
+        font-size: .8rem;
+    }
+    
+    .footer a:hover{
+        color:black;
+    }
+    
+    .footer ul{
+        list-style: none;
+        padding:2px;
+        font-size: .8rem;
+    }
+    
+    .footer-text{
+        font-size: .8rem;
+        top:60rem;
+        left:0rem;
+    }
+
+}
+
+@media (max-width:500px) {
+    .header{
+        padding:1 10%;
+    }
+    
+    .logo{
+        position: relative;
+        left:-2rem;
+        font-size: .7rem;
+        width:100%;
+    }
+    
+    .navbar a{
+        padding:0rem;
+        font-size: 12px;
+        left:5rem;
+        width:100%;
+    }
+
+    .navbar{
+        display:flex;
+        width:100%;
+        position:relative;
+        right:2rem;
+    }
+    
+    
+    .header2{
+        top:2.8rem;
+        padding:0;
+        width:100%;
+        border-radius: 0;
+    }
+    
+    .header2 img{
+        width:60px;
+        left:3rem;
+        border-radius: 50%;
+    }
+    
+    .header2 a{
+        text-decoration: none;
+        padding:0 1rem;
+        font-size: .5rem;
+        transition: .3s;
+    }
+
+    .navlinks{
+        display:flex;
+        width:100%;
+        right:2rem;
+        position: relative;
+    }
+    
+    
+    .headbut{
+        position: relative;
+        width:4rem;
+        height:1.5rem;
+        color:aliceblue;
+        border-radius: 9px;
+        letter-spacing: 1px;
+        align-items: center;
+        display: flex;
+        right: .9rem;
+
+    }
+    
+    .headbut a{
+        position: relative;
+        text-decoration: none;
+        color:aliceblue;
+        text-align: center;
+        bottom:5px ;
+        width: 100%;
+    }
+    
+    .headbut span{
+        font-size: .5rem;
+        position:relative;
+        right:.7rem;
+        bottom:3px;
+
+    }
+
+
+    .h1h1{
+        top:10rem;
+        font-size: 1rem;
+    }
+    
+
+    .about{
+        top:10rem;
+        display:block;
+    }
+    
+    .about img{
+        left:2rem;
+        width:400px;
+    }
+    
+    .text{
+        width:400px;
+        left:3rem;
+        top:5rem;
+    }
+    
+    .text h1{
+        padding-bottom: 30px;
+        font-size: 2rem;
+        
+    }
+    
+    
+    .history{
+        top:15rem;
+        display:block;
+    }
+    
+    .history img{
+        height:500px;
+        left:2rem;
+        top:5rem;
+        width:400px;
+    
+    }
+    
+    .values{
+        position: relative;
+        text-align: center;
+        top:25rem;
+    }
+    
+    .valss{
+        display:  block;
+        left:5rem;
+    }
+    
+    
+    
+    .vals p{
+        padding-bottom: 50px;
+    }
+    
+    .commitment{
+        left:0rem;
+    }
+    
+    .commitment h1{
+        position:relative;
+        left:4rem;
+    }
+    
+    .commitment h2{
+       left: 2rem;
+        
+    }
+    
+    .commitment ul{
+        position: relative;
+       left:2rem;
+       width:400px;
+    }
+    
+    .commitment img{
+        width:400px;
+        left:2rem;
+        top:5rem;
+    }
+    
+    .team{
+        top:55rem;
+        text-align: center;
+    }
+    
+    
+    .team img{
+        width:250px;
+        border-radius: 40px 20px 40px 20px;
+    }
+    
+    .team h3{
+    position:relative;
+    padding-bottom:0;
+    background: rgb(111, 111, 239);
+    font-size: 2rem;
+    color: aliceblue;
+    }
+    
+    .team h5{
+        padding-bottom: 0;
+    }
+
+    
+    .person{
+        padding-bottom: 10rem;
+        left:0rem;
+        display: block;
+    }
+    
+   
+    
+    .contact{
+        top:60rem;
+        height:150px;
+    }
+    
+    .contact h1{
+        top:4rem;
+        right:2rem;
+        font-size: 1rem;
+    }
+    
+    .contact button{
+     
+        left:0rem;
+        top:4.5rem;
+        width:11rem;
+        height:3rem;
+        border-radius: 9px;
+        
+        
+    }
+    
+    .footer{
+        top:75em;
+        font-size: .8rem;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.648);
+        font-size: .8rem;
+    }
+    
+    .footer a:hover{
+        color:black;
+    }
+    
+    .footer ul{
+        list-style: none;
+        padding:2px;
+        font-size: .8rem;
+    }
+    
+    .footer-text{
+        font-size: 1rem;
+        top:60rem;
+        left:0rem;
+    }
+
+
+
+}
+
+
+@media(max-width:400px){
+    .header{
+        padding:1 10%;
+    }
+    
+    .logo{
+        position: relative;
+        left:-2rem;
+        font-size: .6rem;
+        width:100%;
+    }
+    
+    .navbar a{
+        padding:0rem;
+        font-size: 10px;
+        left:5rem;
+        width:100%;
+    }
+
+    .navbar{
+        display:flex;
+        width:100%;
+        position:relative;
+        right:2rem;
+    }
+    
+    
+    .header2{
+        top:2.8rem;
+        padding:0;
+        width:100%;
+        border-radius: 0;
+    }
+    
+    .header2 img{
+        width:60px;
+        left:1.5rem;
+        border-radius: 50%;
+    }
+    
+    .header2 a{
+        text-decoration: none;
+        padding:0 .5rem;
+        font-size: .3rem;
+        transition: .3s;
+    }
+
+    .navlinks{
+        display:flex;
+        width:100%;
+        right:2rem;
+        position: relative;
+    }
+    
+    
+    .headbut{
+        position: relative;
+        width:3rem;
+        height:1.5rem;
+        color:aliceblue;
+        border-radius: 9px;
+        letter-spacing: 1px;
+        align-items: center;
+        display: flex;
+        right: 1.4rem;
+
+    }
+    
+    .headbut a{
+        position: relative;
+        text-decoration: none;
+        color:aliceblue;
+        text-align: center;
+        bottom:5px ;
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .headbut span{
+        font-size: .4rem;
+        position:relative;
+        right:.1rem;
+        bottom:3px;
+
+    }
+
+    .h1h1{
+        top:10rem;
+        font-size: 1rem;
+    }
+
+     
+    .about{
+        top:10rem;
+        display:block;
+    }
+    
+    .about img{
+        left:1rem;
+        width:350px;
+    }
+    
+    .text{
+        width:350px;
+        left:2rem;
+        top:5rem;
+    }
+    
+    .text h1{
+        padding-bottom: 30px;
+        font-size: 2rem;
+        
+    }
+    
+    
+    .history{
+        top:15rem;
+        display:block;
+    }
+    
+    .history img{
+        height:500px;
+        left:1rem;
+        top:5rem;
+        width:350px;
+    
+    }
+    
+    .values{
+        position: relative;
+        text-align: center;
+        top:25rem;
+    }
+    
+    .valss{
+        display:  block;
+        left:5rem;
+    }
+    
+    .vals{
+        width:350px;
+        left:-3rem;
+    }
+    
+    .vals p{
+        padding-bottom: 50px;
+    }
+    
+    .commitment{
+        left:0rem;
+    }
+    
+    .commitment h1{
+        position:relative;
+        left:1rem;
+    }
+    
+    .commitment h2{
+       left: 0rem;
+        
+    }
+    
+    .commitment ul{
+        position: relative;
+       left:2rem;
+       width:350px;
+    }
+    
+    .commitment img{
+        width:350px;
+        left:1rem;
+        top:5rem;
+    }
+    
+    .team{
+        top:55rem;
+        text-align: center;
+    }
+    
+    
+    .team img{
+        width:250px;
+        border-radius: 40px 20px 40px 20px;
+    }
+    
+    .team h3{
+    position:relative;
+    padding-bottom:0;
+    background: rgb(111, 111, 239);
+    font-size: 2rem;
+    color: aliceblue;
+    }
+    
+    .team h5{
+        padding-bottom: 0;
+    }
+
+    
+    .person{
+        padding-bottom: 10rem;
+        left:0rem;
+        display: block;
+    }
+    
+
+    .contact{
+        top:70rem;
+        height:150px;
+    }
+    
+    .contact h1{
+        top:4rem;
+        right:2rem;
+        font-size: 1rem;
+    }
+    
+    .contact button{
+     
+        left:0rem;
+        top:4.5rem;
+        width:11rem;
+        height:3rem;
+        border-radius: 9px;
+        
+        
+    }
+   
+    .footer{
+        top:70rem;
+        font-size: .8rem;
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.648);
+        font-size: .8rem;
+    }
+    
+    .footer a:hover{
+        color:black;
+    }
+    
+    .footer ul{
+        list-style: none;
+        padding:2px;
+        font-size: .8rem;
+    }
+    
+    .footer-text{
+        font-size: 1rem;
+        top:30rem;
+        left:0rem;
+    }
+
+}
